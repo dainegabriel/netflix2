@@ -1,0 +1,312 @@
+*{
+     margin: 0;
+     text-decoration: none;
+     padding: 0;        
+}
+body{
+     background-color: rgb(17, 17, 17);
+}
+
+.netflix-logo{
+     position: absolute;
+     top: 20px;
+     left: 20px;
+}
+.select-sign{
+     text-align: right;
+}
+.select-button{
+     padding: 4px;
+     position: relative;
+     right: 240px;
+     top: 20px;
+     background: transparent;
+     color: white;
+     border-color: rgb(204, 204, 204);
+     border-radius: 3px;
+   
+}
+.sign-in-button{
+     background-color: rgb(229, 9, 20);
+     border-radius: 3px;
+     color: white;
+     border: none;
+     padding-top: 4px;
+     padding-bottom: 4px;
+     padding-right: 10px;
+     padding-left: 10px;
+     position: relative;
+     top: 20px;
+     right: 230px;
+}
+.background{
+     position: absolute;
+     z-index: -1;
+     top: 0;
+}
+.background-img{
+     width: 100%;
+     height: 760px;
+     opacity: 0.6;
+}
+.first-middle-text{
+     color: white;
+     font-family: Arial;
+     font-size: 40px;
+     font-weight: bold;
+     text-align: center;
+     position: relative;
+     top: 240px;
+     
+}
+.second-middle-text{
+     color: white;
+     text-align: center;
+     position: relative;
+     top: 245px;
+     font-size: 20px;
+     font-family: Arial;
+     font-weight: 200;
+     
+     
+}
+.email-sign-in{
+     text-align: center;
+     position: relative;
+     top: 260px;
+     
+}
+.input-box{
+     padding-left: 5px   ;
+     background-color: black;
+     color: white;
+     width: 260px;
+     height :35px;
+     border-color: white;
+     border-radius: 5px;
+     border-style: solid;
+
+}
+.get-start-button{
+     width:120px;
+     height: 37px;
+     background-color: rgb(229, 9, 20);
+     color: white;
+     border-color:rgb(229, 9, 20);
+     border-radius: 5px;
+     transition: background-color .24s;
+
+}
+.get-start-button:hover{
+     background-color: rgb(255, 22, 22);
+}
+.second-div{
+     display: grid;
+     grid-template-columns: 50% 50%;
+     background-color: black;
+     position: absolute;
+     top: 775px;
+}
+.second-title-text{
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 44px;
+     font-weight: bolder;
+     margin-top: 140px;
+     margin-left: 60px;
+}
+.second-paragraph-text{
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 400;
+     font-size: 20px;
+     padding-right: 60px;
+     padding-left: 60px;
+}
+.tv-img{
+     width: auto;
+     height: 400px;
+}
+.third-div{
+     display: grid;
+     grid-template-columns: 50% 50%;
+     background-color: black;
+     position: absolute;
+     top: 1195px;
+}
+.mille-img{
+  width: 550px;
+    height: auto;
+    padding-right: 285px
+}
+.third-title-text{
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 44px;
+     font-weight: bolder;
+     margin-top: 140px;
+}
+.third-paragraph-text{
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 400;
+     font-size: 20px;
+}
+.forth-div{
+     display: grid;
+     grid-template-columns: 50% 50%;
+     background-color: black;
+     position: absolute;
+     top: 1625px;
+}
+.apple-tv-img{
+     width: 550px;
+    height: auto;
+    padding-right: 200px;
+}
+.forth-title-text{
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 44px;
+     font-weight: bolder;
+     margin-top: 140px;
+     margin-left: 60px;
+}
+.forth-paragraph-text{
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 400;
+     font-size: 20px;
+     padding-right: 55px;
+     padding-left: 60px;
+}
+.fifth-div{
+     display: grid;
+     grid-template-columns: 50% 50%;
+     background-color: black;
+     position: absolute;
+     top: 2045px;
+}
+.cartton-img{
+    width: 550px;
+    height: auto;
+}
+.fifth-title-text{
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 44px;
+     font-weight: bolder;
+     margin-top: 140px;
+
+}
+.fifth-paragraph-text{
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 400;
+     font-size: 20px;
+}
+.second-last-div{
+     width: 100%;
+     height: auto;
+     position: absolute;
+     top:2475px;
+     background-color: black;
+}
+.second-last-heading{
+     text-align: center;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 44px;
+     font-weight: bolder;
+     padding-top: 70px;
+     padding-bottom: 30px;
+
+}
+.box{
+     display: grid;
+     grid-template-columns: 90% 10%;
+     background-color: rgb(44, 44, 44);
+     height: 75px;
+     width: 70%;
+     margin-left: 190px;
+     margin-bottom: 10px;
+     transition: transform 1s;
+}
+.box:hover{
+     transform: scale(1.1);
+}
+h4{
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 30px;
+     font-weight: 600;
+     padding-top: 23px;
+     padding-bottom: 10px;
+     padding-left: 10px;
+}
+.plus{
+     color: white;
+     font-size: 65px;
+}
+.membership-div{
+     width: 100%;
+     height: 40px;
+     background-color: rgb(0, 0, 0);
+     margin-top: 40px;
+}
+.membership-text{
+     color: white;
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 18px;
+}
+.last-email{
+     width: 100%;
+     height: 40px;
+     padding-bottom: 50px;
+}
+.for-movement{
+     margin-left: 490px;
+}
+.email-box{
+     height: 30px;
+     width: 280px;
+     background-color: black;
+     border-color: white;
+     border-radius: 5px;
+     border-style: solid;
+     color: white;
+}
+.last-get-button{
+     height: 33px;
+     width: 100px;
+     color: white;
+     background-color: red;
+     border-radius: 5px;
+     border-color: red;
+     transition: background-color 0.25s;
+    
+}
+.last-get-button:hover{
+     background-color: rgb(255, 16, 16);
+}
+.last-div{
+     background-color: rgb(0, 0, 0);
+     width: 100%;
+     position: absolute;
+     top: 3310px;
+     padding-top: 60px;
+     padding-left: 30px;
+     padding-bottom: 40px;
+}
+.last-link{
+ display: block;
+ color: white;
+ margin-bottom: 25px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 400;
+}
+.last-link-div{
+     display: grid;
+     grid-template-columns: 25% 25% 25% 25%;
+}
